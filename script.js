@@ -18,6 +18,10 @@ const counterReducer = (state = initialState, action) => {
             return { value: state.value + 1 }
         case 'counter/decremented':
             return { value: state.value - 1 }
+        case 'counter/addFive':
+            return { value: state.value + 5 }
+        case 'counter/subFive':
+            return { value: state.value - 5 }
         default:
         return state
     }
