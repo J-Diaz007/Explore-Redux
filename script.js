@@ -44,6 +44,12 @@ const subFiveAction = {
   type: 'counter/subFive'
 }
 
+const incrementIfOdd = () => {
+  if () {
+    store.dispatch(addAction)
+  }
+}
+
 // generating the store
 let store = Redux.createStore(counterReducer)
 
