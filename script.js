@@ -79,12 +79,19 @@ const incrementIfOdd = () => {
   }
 }
 
+const incremenAsync = () => {
+  setTimeout(() => {
+    store.dispatch(addAction)
+  }, 1000)
+}
+
 // event listeners
 plusBtn.addEventListener('click', addOne)
 minusBtn.addEventListener('click', subOne)
 plusFiveBtn.addEventListener('click', addFive)
 minusFiveBtn.addEventListener('click', subFive)
-incrementIfOdd.addEventListener('click', incrementIfOdd)
+incrementIfOddBtn.addEventListener('click', incrementIfOdd)
+incrementAsyncBtn.addEventListener('click', incrementAsync)
 
 
 // initial render
