@@ -36,6 +36,14 @@ const subAction = {
   type: 'counter/decremented'
 }
 
+const addFiveAction = {
+  type: 'counter/addFive'
+}
+
+const subFiveAction = {
+  type: 'counter/subFive'
+}
+
 // generating the store
 let store = Redux.createStore(counterReducer)
 
