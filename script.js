@@ -62,9 +62,20 @@ const subOne = () => {
   store.dispatch(subAction)
 }
 
+const addFive = () => {
+  store.dispatch(addFiveAction)
+}
+
+const subFive = () => {
+  store.dispatch(subFiveAction)
+}
+
+
 // event listeners
 plusBtn.addEventListener('click', addOne)
 minusBtn.addEventListener('click', subOne)
+plusFiveBtn.addEventListener('click', addFive)
+minusFIveBtn.addEventListener('click', subFive)
 
 // initial render
 render()
