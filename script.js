@@ -44,11 +44,6 @@ const subFiveAction = {
   type: 'counter/subFive'
 }
 
-const incrementIfOdd = () => {
-  if () {
-    store.dispatch(addAction)
-  }
-}
 
 // generating the store
 let store = Redux.createStore(counterReducer)
@@ -86,7 +81,9 @@ const incrementIfOdd = () => {
 plusBtn.addEventListener('click', addOne)
 minusBtn.addEventListener('click', subOne)
 plusFiveBtn.addEventListener('click', addFive)
-minusFIveBtn.addEventListener('click', subFive)
+minusFiveBtn.addEventListener('click', subFive)
+incrementIfOdd.addEventListener('click', incrementIfOdd)
+
 
 // initial render
 render()
