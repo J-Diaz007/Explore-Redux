@@ -4,6 +4,8 @@ const plusBtn = document.getElementById('plus')
 const minusBtn = document.getElementById('minus')
 const plusFiveBtn = document.getElementById('plusFive')
 const minusFiveBtn = document.getElementById('minusFive')
+const incrementeIfOddBtn = document.getElementById('incrementIfOdd')
+const incrementeAsyncBtn = document.getElementById('incremenAsync')
 
 
 // initial state value
