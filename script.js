@@ -2,6 +2,9 @@
 const valueEl = document.getElementById('value')
 const plusBtn = document.getElementById('plus')
 const minusBtn = document.getElementById('minus')
+const plusFiveBtn = document.getElementById('plusFive')
+const minusFiveBtn = document.getElementById('minusFive')
+
 
 // initial state value
 const initialState = {
